@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone --recursive https://github.com/simonpintarelli/SIRIUS.git -b feature/baarman-direct-minimization
+git clone --recursive https://github.com/electronic-structure/SIRIUS.git -b develop
 (
     cd SIRIUS
     mkdir -p external && \

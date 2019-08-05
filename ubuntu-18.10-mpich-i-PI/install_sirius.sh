@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone --recursive https://github.com/simonpintarelli/SIRIUS.git -b python27_i-PI
+git clone --recursive https://github.com/electronic-structure/SIRIUS.git -b develop
 (
     cd SIRIUS
     mkdir -p external && \
@@ -23,4 +23,4 @@ git clone --recursive https://github.com/simonpintarelli/SIRIUS.git -b python27_
         )
 )
 
-git clone https://github.com/simonpintarelli/i-pi.git i-pi -b feat/sirius
+git clone https://github.com/simonpintarelli/i-pi.git i-pi -b feature/sirius
